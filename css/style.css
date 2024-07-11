@@ -546,6 +546,9 @@ a {
     flex-direction: column;
     height: 100%;
     row-gap: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .footer-section ul {
@@ -980,6 +983,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+ 
     }
 
     .booki-footer section:nth-child(1){
