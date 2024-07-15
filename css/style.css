@@ -172,7 +172,13 @@ a {
     padding: 0 0 20px;
 }
 
+.title h2 {
+    padding: 0 20px;
+}
 
+.subline p {
+    padding: 0 20px;
+}
 
 .title-filter {
     font-family: 'Raleway', sans-serif;
@@ -180,7 +186,9 @@ a {
     font-weight: 700;
     line-height: 21.13px;
     color: #000000;
+    padding: 0 10px;
 }
+
 
 
 
@@ -243,7 +251,7 @@ a {
     height: 24px;
     display: flex;
     align-items: center;
-    padding: 20px 0 50px;
+    padding: 20px 10px 50px;
 }
 
 
@@ -749,7 +757,7 @@ a {
 @media (max-width: 767.98px) {
     
     .main-container {
-        /*padding: 0;*/
+        padding: 0;
         margin: 0;
         
     }
